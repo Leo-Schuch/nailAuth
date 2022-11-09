@@ -1,0 +1,27 @@
+## Access Token:
+
+- **Pra que serve?**
+- Pega Qualquer tipo de info do usuário
+- Atualizar ...
+- Inserir ...
+- Deletar ...
+
+- **Duração** 
+  Dura pouco tempo/ O mínimo possível.
+
+- **Risco se ele vazar**
+  -Quanto maior o tempo de vida, maior o estrago que quem tiver o token pode fazer.
+
+## Refresh Token: 
+
+- **Pra que serve?**
+- Literalmente, para não precisar pedir a sneha e o usuário para gerar um novo access_token
+- **Duração** 
+  - Duração é longa
+  - O refresh token a nivel de back end ta associado ao usuário de alguma forma.
+  - 
+
+- **Risco se ele vazar**
+  -Se ele vazar, o usuário novo pode gerar tokens infinitos(access token, refresh token)
+  -Precisa ter alguma forma de invalidar os refresh tokens
+
